@@ -36,3 +36,67 @@ body{background:var(--bg);color:var(--text)}
 .cert-list h3{font:600 13px/1.4 var(--display);margin:0}
 .cert-list p{font-size:11px;color:#c4a5b3;margin:4px 0 0}
 @media(max-width:700px){.credential-grid,.cert-list{grid-template-columns:1fr}.credential-heading{align-items:flex-start;flex-direction:column}.credential-card{min-height:unset}.certifications{margin-top:45px}}
+
+/* LIGHT PINK THEME — accessible rose and blush palette */
+:root{--bg:#fff7fa;--panel:#ffffff;--panel2:#fcecf2;--line:#efd0dd;--text:#48283a;--muted:#806577;--cyan:#b84f79;--blue:#a65d83;--lime:#a64e73;--max:1160px}
+body{background:#fff7fa;color:#48283a}
+.scanlines{opacity:.035;background:repeating-linear-gradient(0deg,transparent 0 3px,#dba9bf 4px)}
+.nav{background:rgba(255,247,250,.94);border-color:#efd0dd}
+.brand>span{background:#fff0f5}
+.nav nav{color:#806577}
+.menu{background:#fff;border-color:#efd0dd;color:#48283a}
+.hero h1,.split h2,.section h2,.contact h2{color:#48283a}
+.lead,.copy>p,.section-intro,.contact>p{color:#806577}
+.profile-panel{background:linear-gradient(145deg,#fff,#fcecf2);border-color:#e8bfd0;box-shadow:12px 12px 0 #f5dce7}
+.profile-panel h2{color:#48283a}
+.profile-data b{color:#48283a}
+.ticker{background:#fcecf2;color:#a65d83;border-color:#efd0dd}
+.section-head{border-color:#efd0dd}
+.dark-section,.alt-section{background:#fff0f5;border-color:#efd0dd}
+.timeline{border-color:#d89bb5}
+.timeline b{color:#a64e73}
+.timeline p,.roadmap p{color:#806577}
+.chips i{color:#80566a;border-color:#e8c6d5;background:#fff8fb}
+.focus-card{background:#fff;border-color:#efd0dd}
+.focus-card.featured{background:linear-gradient(140deg,#fff0f5,#fff);border-color:#dba9bf}
+.focus-card h3{color:#48283a}
+.focus-card p{color:#806577}
+.skill-board{background:#fff;border-color:#efd0dd}
+.board-title{border-color:#efd0dd}
+.skill-line{border-color:#f1dce5}
+.skill-line span{color:#48283a}
+.skill-line b{color:#a64e73}
+.skill-line small,.board-title small{color:#806577}
+.roadmap{border-color:#d89bb5}
+.tool-grid{background:#efd0dd;border-color:#efd0dd}
+.tool-grid div{background:#fff}
+.contact-links a{background:#fff;border-color:#efd0dd;color:#806577}
+.contact-links b{color:#48283a}
+.footer{border-color:#efd0dd;background:#fff7fa}
+.footer b{color:#48283a}
+.footer b span,.footer small,.footer a{color:#806577}
+.btn{background:#fff;color:#48283a;border-color:#e8bfd0}
+.btn.primary{background:#c76a91;border-color:#c76a91;color:#fff}
+.btn:hover{border-color:#b84f79}
+.credential-heading h2,.credential-card h3,.cert-list h3{color:#48283a}
+.credential-count{color:#92516e;border-color:#e4bfd0}
+.credential-card{background:linear-gradient(150deg,#fff,#fff1f6);border-color:#efd0dd}
+.credential-card p,.credential-meta time,.cert-list p{color:#806577}
+.cert-list{border-color:#efd0dd}
+.cert-list article{border-color:#efd0dd}
+.cert-mark{color:#b84f79}
+/* Keep the arcade self-contained, with a light rose frame around its playfield. */
+.game-section{background:linear-gradient(180deg,#fff0f5,#fcecf2);border-color:#e8bfd0}
+.game-heading h2{color:#48283a}
+.game-heading p:last-child{color:#806577}
+.game-best{color:#806577}
+.game-shell{background:#fff;border-color:#dba9bf;box-shadow:0 12px 35px #b84f791c}
+.game-hud{background:#fff8fb;border-color:#efd0dd}
+.game-hud div small{color:#806577}
+.game-hud div b{color:#a94370}
+.void-meter>div{background:#f0dce5}
+.game-footer{background:#fff8fb;border-color:#efd0dd;color:#806577}
+.upgrade-row>span{color:#806577}
+.upgrade-row button{background:#fff;border-color:#e4bfd0;color:#a94370}
+.upgrade-row button:not(:disabled):hover{background:#fcecf2}
+@media(max-width:700px){.nav nav{background:#fff7fa;border-color:#efd0dd}}
